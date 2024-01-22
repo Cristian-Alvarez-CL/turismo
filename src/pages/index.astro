@@ -1,0 +1,55 @@
+---
+import Layout from "../layouts/layout.astro";
+import Card from "../components/Card.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/footer.astro";
+import Hero from "../components/Hero.astro";
+import Hero2 from "../components/Hero2.astro";
+import Hero3 from "../components/Hero3.astro";
+import Hero4 from "../components/Hero4.astro";
+import Hero5 from "../components/Hero5.astro";
+import Hero6 from "../components/Hero6.astro";
+---
+
+<Layout title="Turismo Mapumay">
+  <main class="px-4">
+    <SectionContainer id="inicio">
+      <Hero />
+    </SectionContainer>
+
+    <SectionContainer id="inicio2">
+      <Hero2 />
+    </SectionContainer>
+
+    <SectionContainer id="inicio3">
+      <Hero3 />
+    </SectionContainer>
+
+    <SectionContainer id="inicio4">
+      <Hero4 />
+    </SectionContainer>
+
+    <SectionContainer id="inicio5">
+      <Hero5 />
+    </SectionContainer>
+
+    <SectionContainer id="inicio6">
+      <Hero6 />
+    </SectionContainer>
+
+    <SectionContainer id="tours" class="">
+      <Card />
+    </SectionContainer>
+
+    <SectionContainer id="contacto" class="">
+      <Contact />
+    </SectionContainer>
+
+    <SectionContainer id="footer" class="">
+      <Footer />
+    </SectionContainer>
+  </main>
+</Layout>
+
+<style></style>

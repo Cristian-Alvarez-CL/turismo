@@ -1,0 +1,32 @@
+---
+import { Picture } from "astro:assets";
+import mapumayImagenCircular from "../assets/img/mapumay_circular.png";
+import mapumayVideoFrente from "../assets/video/cascada_de_frente-2160p.mp4";
+
+---
+
+<!-- Contenedor Principal -->
+<div class="relative min-h-screen flex items-center justify-center">
+
+  <!-- Sección de Video de Fondo -->
+  <video autoplay loop muted class="absolute z-0 w-full h-full object-cover">
+    <source src={mapumayVideoFrente} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Contenido Centrado sobre el Video -->
+  <div class="relative z-10 flex flex-col items-center justify-center p-4">
+
+    <!-- Imagen Central -->
+    <Picture
+      class="w-full max-w-2xl h-auto object-cover"
+      src={mapumayImagenCircular}
+      alt="Turismo Mapumay"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+
+  </div>
+</div>
