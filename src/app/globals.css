@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos que cambian con el modo oscuro */
+.dark {
+  background-color: #000000;
+}
+
+/* En tu archivo CSS global 
+body {
+  background-image: url('./assets/img/VolcanVillarica-1024x1024.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
