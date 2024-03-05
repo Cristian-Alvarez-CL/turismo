@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import footerBackground from "../assets/img/animales-en-negro-image.png";
+import footerBackground from "@/assets/img/animales-en-negro-image.png";
 
 export default function Footer() {
   return (

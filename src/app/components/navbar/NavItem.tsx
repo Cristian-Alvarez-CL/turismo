@@ -1,6 +1,6 @@
 // NavItem.tsx
 import React from 'react';
-import SubMenu from './SubMenu';
+import SubMenu from '@/components/navbar/SubMenu';
 
 const NavItem = ({ item, isActiveDesktop, isActiveMobile, onMouseEnter, onMouseLeave, onMobileClick }) => {
     return (

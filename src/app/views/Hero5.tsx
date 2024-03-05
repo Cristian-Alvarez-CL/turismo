@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mapumayImagenCircular from "../assets/img/mapumay_circular.png";
+import mapumayImagenCircular from "@/assets/img/mapumay_circular.png";
 const mapumayVideoSuperior =
   "https://cdn.pixabay.com/vimeo/413229662/cascada-37088.mp4?width=3840&hash=ef239afb3df2e22d7dfe6a02af444f0dd8e9599f";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import mapumayImagenCircular from "../assets/img/mapumay_circular-image.jpeg";
-import presentacion from "../common/data/presentacion.json";
+import mapumayImagenCircular from "@/assets/img/mapumay_circular-image.jpeg";
+import presentacion from "@/common/data/presentacion.json";
 
 export default function Hero() {
   return (

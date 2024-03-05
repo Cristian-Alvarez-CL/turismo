@@ -1,6 +1,6 @@
 import Image from "next/image";
-import mapumayImagenCircular from "../assets/img/mapumay_circular.png";
-import mapumayImagenSaltoMellizas from "../assets/img/salto_las_mellizas.jpeg";
+import mapumayImagenCircular from "@/assets/img/mapumay_circular.png";
+import mapumayImagenSaltoMellizas from "@/assets/img/salto_las_mellizas.jpeg";
 
 export default function Hero6() {
   return (

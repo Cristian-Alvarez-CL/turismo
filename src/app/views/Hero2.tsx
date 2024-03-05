@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mapumayImagenCircular from "../assets/img/mapumay_circular.png";
+import mapumayImagenCircular from "@/assets/img/mapumay_circular.png";
 
 const mapumayVideoFrente =
   "https://player.vimeo.com/external/328428416.hd.mp4?s=fa02b255fa889778086413be73fadec52a120743&profile_id=172&oauth2_token_id=57447761";

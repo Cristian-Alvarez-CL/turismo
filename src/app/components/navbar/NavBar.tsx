@@ -1,13 +1,13 @@
 "use client";
 // NavBar.tsx
 import React, { useState, useEffect } from "react";
-import NavItem from "./NavItem";
-import MobileMenuButton from "./MobileMenuButton";
-import DarkModeToggle from "./DarkModeToggle";
-import menuData from "../../common/data/menuItems.json";
+import NavItem from "@/components/navbar/NavItem";
+import MobileMenuButton from "@/components/navbar/MobileMenuButton";
+import DarkModeToggle from "@/components/navbar/DarkModeToggle";
+import menuData from "@/common/data/menuItems.json";
 import Image from "next/image";
-import imgMapumayCircular from "../../assets/img/mapumay_circular-image.jpeg";
-import SubMenu from "./SubMenu";
+import imgMapumayCircular from "@/assets/img/mapumay_circular-image.jpeg";
+import SubMenu from "@/components/navbar/SubMenu";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

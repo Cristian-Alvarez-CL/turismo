@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { tours } from "../common/data/tours";
+import { tours } from "@/common/data/tours";
 
 export default function Tour() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import FormContact from "../components/FormContact";
-import SocialNetworks from "../components/SocialNetworks";
+import FormContact from "@/components/FormContact";
+import SocialNetworks from "@/components/SocialNetworks";
 
 export default function Contact() {
   return (
