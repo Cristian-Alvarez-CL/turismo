@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import footerBackground from "../assets/img/Animales-en-negro-image.png";
+import footerBackground from "../assets/img/animales-en-negro-image.png";
 
 export default function Footer() {
   return (
@@ -9,10 +9,7 @@ export default function Footer() {
         <Image
           src={footerBackground}
           alt="Turismo Mapumay"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          quality={100}
+          className="w-full h-full object-cover object-center"
         />
       </div>
       <p className="absolute bottom-4 w-full text-center text-white text-lg z-10">

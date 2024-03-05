@@ -9,10 +9,8 @@ export default function SocialNetworks() {
       <Image
         src={mapumayImagenRectangular.src}
         alt="Turismo Mapumay"
-        layout="intrinsic"
         width={500}
         height={500}
-        objectFit="cover"
       />
     </div>
   );
