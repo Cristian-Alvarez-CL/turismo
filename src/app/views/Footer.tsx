@@ -10,7 +10,7 @@ export default function Footer() {
           src={footerBackground}
           alt="Turismo Mapumay"
           layout="fill"
-          objectFit="cover fit"
+          objectFit="cover"
           objectPosition="center"
           quality={100}
         />
