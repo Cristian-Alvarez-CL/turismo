@@ -15,10 +15,7 @@ export default function Home() {
             <ContactSection />
 
             {/* WhatsApp Floating Button */}
-            <WhatsappIcon
-                phoneNumber="56989456816"
-                message="Hola, estoy interesado en conocer más sobre sus servicios turísticos."
-            />
+            <WhatsappIcon/>
         </main>
     )
 }

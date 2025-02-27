@@ -3,11 +3,13 @@
 import { MessageCircle } from "lucide-react"
 
 interface WhatsappIconProps {
-  phoneNumber: string
   message?: string
 }
 
-export function WhatsappIcon({ phoneNumber, message = "Hola" }: WhatsappIconProps) {
+export function WhatsappIcon({ message = "Hola, estoy interesado en conocer más sobre sus servicios turísticos." }: WhatsappIconProps) {
+
+  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
+  
   const encodedMessage = encodeURIComponent(message)
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
 
