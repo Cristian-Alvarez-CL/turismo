@@ -8,6 +8,13 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin } from "lucide-react"
 
+const contact = {
+  id: 1,
+  direccion: "General Urrutia 436, Pucón, Chile",
+  telefono: "+56 9 8945 68 16",
+  email: "info@turismomapumay.cl",
+};
+
 export function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
@@ -84,7 +91,7 @@ export function ContactSection() {
             <MapPin className="h-6 w-6 text-primary mt-1" />
             <div>
               <h4 className="font-medium">Dirección</h4>
-              <p className="text-muted-foreground">Av. Principal 123, Puerto Varas, Chile</p>
+              <p className="text-muted-foreground">{ contact.direccion }</p>
             </div>
           </div>
 
@@ -92,7 +99,7 @@ export function ContactSection() {
             <Phone className="h-6 w-6 text-primary mt-1" />
             <div>
               <h4 className="font-medium">Teléfono</h4>
-              <p className="text-muted-foreground">+56 9 1234 5678</p>
+              <p className="text-muted-foreground">{ contact.telefono }</p>
             </div>
           </div>
 
@@ -100,13 +107,13 @@ export function ContactSection() {
             <Mail className="h-6 w-6 text-primary mt-1" />
             <div>
               <h4 className="font-medium">Email</h4>
-              <p className="text-muted-foreground">info@turismomapumay.cl</p>
+              <p className="text-muted-foreground">{ contact.email }</p>
             </div>
           </div>
 
           <div className="mt-8">
             <h4 className="font-medium mb-2">Horario de Atención</h4>
-            <p className="text-muted-foreground">Lunes a Viernes: 9:00 - 18:00</p>
+            <p className="text-muted-foreground">Lunes a Viernes: 9:00 - 17:00</p>
             <p className="text-muted-foreground">Sábados: 10:00 - 14:00</p>
           </div>
         </div>

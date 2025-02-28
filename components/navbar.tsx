@@ -17,7 +17,7 @@ const navLinks = [
   { href: "/contacto", label: "Contacto" },
 ]
 
-const logo = "/images/navbar/mapumay_circular.png"
+const logo = "/images/mapumay/pajaro-mapumay.png"
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

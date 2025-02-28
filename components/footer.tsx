@@ -2,6 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Instagram, Facebook, Twitter } from "lucide-react"
 
+const imageLogo = "/images/mapumay/pajaro-mapumay.png"
+
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -10,7 +12,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src={ imageLogo }
                 alt="Turismo Mapumay Logo"
                 width={40}
                 height={40}

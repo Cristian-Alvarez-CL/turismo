@@ -1,5 +1,7 @@
 import Image from "next/image"
 
+const imgAbout = "/images/mapumay/ocaso-mapuche.png"
+
 export function AboutUs() {
   return (
     <section className="py-16 px-4 max-w-7xl mx-auto">
@@ -22,7 +24,7 @@ export function AboutUs() {
         </div>
         <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=800&width=600"
+            src={ imgAbout }
             alt="Equipo de Turismo Mapumay"
             fill
             className="object-cover"
