@@ -3,6 +3,12 @@ import Image from "next/image"
 import { Instagram, Facebook, Twitter } from "lucide-react"
 
 const imageLogo = "/images/mapumay/pajaro-mapumay.png"
+const contact = {
+  id: 1,
+  direccion: "General Urrutia 436, Pucón, Chile",
+  telefono: "+56 9 8945 68 16",
+  email: "info@turismomapumay.cl",
+};
 
 export function Footer() {
   return (
@@ -93,10 +99,9 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contacto</h3>
             <address className="not-italic text-primary-foreground/80 space-y-2">
-              <p>Av. Principal 123</p>
-              <p>Puerto Varas, Chile</p>
-              <p>+56 9 1234 5678</p>
-              <p>info@turismomapumay.cl</p>
+              <p>{ contact.direccion }</p>
+              <p>{ contact.telefono }</p>
+              <p>{ contact.email }</p>
             </address>
           </div>
         </div>
