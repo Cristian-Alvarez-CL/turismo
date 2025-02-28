@@ -28,7 +28,7 @@ export function ContactForm() {
     console.log("Form submitted:", formData)
     // Simulamos una respuesta exitosa
     await new Promise((resolve) => setTimeout(resolve, 1000))
-    toast({
+    toast.success({
       title: "Mensaje enviado",
       description: "Gracias por contactarnos. Te responderemos pronto.",
     })
