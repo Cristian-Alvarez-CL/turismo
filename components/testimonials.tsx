@@ -2,27 +2,29 @@ import Image from "next/image"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { StarIcon } from "lucide-react"
 
+const photo = "/images/testimonials/photo1.png"
+
 const testimonials = [
   {
     id: 1,
     name: "María González",
     text: "Nuestra experiencia con Turismo Mapumay fue increíble. El guía conocía perfectamente la zona y nos mostró lugares que no hubiéramos descubierto por nuestra cuenta.",
     rating: 5,
-    image: "/placeholder.svg?height=100&width=100",
+    image: photo,
   },
   {
     id: 2,
     name: "Carlos Rodríguez",
     text: "El tour al volcán superó todas nuestras expectativas. La organización fue impecable y el paisaje simplemente espectacular.",
     rating: 5,
-    image: "/placeholder.svg?height=100&width=100",
+    image: photo,
   },
   {
     id: 3,
     name: "Ana Martínez",
     text: "Viajamos en familia y fue una experiencia inolvidable. Los niños disfrutaron mucho y las actividades estaban perfectamente adaptadas para todas las edades.",
     rating: 4,
-    image: "/placeholder.svg?height=100&width=100",
+    image: photo,
   },
 ]
 
@@ -38,7 +40,7 @@ export function Testimonials() {
               <CardHeader className="flex flex-row items-center gap-4 pb-2">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden">
                   <Image
-                    src={testimonial.image || "/placeholder.svg"}
+                    src={testimonial.image}
                     alt={testimonial.name}
                     fill
                     className="object-cover"

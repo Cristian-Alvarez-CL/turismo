@@ -40,7 +40,7 @@ export function FeaturedDestinations() {
           <Card key={destination.id} className="overflow-hidden transition-all hover:shadow-lg">
             <div className="relative h-48 w-full">
               <Image
-                src={destination.image || "/placeholder.svg"}
+                src={destination.image}
                 alt={destination.title}
                 fill
                 className="object-cover"
