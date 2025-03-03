@@ -37,11 +37,11 @@ export function DestinoCard({ destino }: DestinoCardProps) {
             <span className="text-muted-foreground">{destino.duracion}</span>
           </div>
         </CardContent>
-        {/* <CardFooter className="mt-auto">
+        <CardFooter className="mt-auto">
           <Button asChild className="w-full">
             <Link href={`/destinos/${destino.id}`}>Ver Detalles</Link>
           </Button>
-        </CardFooter> */}
+        </CardFooter>
       </div>
     </Card>
   )

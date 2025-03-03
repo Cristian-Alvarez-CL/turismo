@@ -10,6 +10,14 @@ const contact = {
   email: "info@turismomapumay.cl",
 };
 
+const destinosPopulares = [
+  { id: 1, nombre: "Lago Todos Los Santos" },
+  { id: 2, nombre: "Volcán Osorno" },
+  { id: 3, nombre: "Termas de Puyehue" },
+  { id: 4, nombre: "Parque Nacional Puyehue" },
+  { id: 5, nombre: "Frutillar" },
+]
+
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -50,7 +58,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
-              {["Inicio", "Destinos", "Servicios", "Galería", "Contacto"].map((item) => (
+              {["Inicio", "Destinos", "Servicios", "Galería", "Blog", "Contacto"].map((item) => (
                 <li key={item}>
                   <Link
                     href={
@@ -73,23 +81,13 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Destinos Populares</h3>
             <ul className="space-y-2">
-              {[
-                "Lago Todos Los Santos",
-                "Volcán Osorno",
-                "Termas de Puyehue",
-                "Parque Nacional Puyehue",
-                "Frutillar",
-              ].map((item) => (
-                <li key={item}>
+              {destinosPopulares.map((destino) => (
+                <li key={destino.id}>
                   <Link
-                    href={`/destinos/${item
-                      .toLowerCase()
-                      .normalize("NFD")
-                      .replace(/[\u0300-\u036f]/g, "")
-                      .replace(/\s+/g, "-")}`}
+                    href={`/destinos/${destino.id}`}
                     className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
-                    {item}
+                    {destino.nombre}
                   </Link>
                 </li>
               ))}
@@ -99,9 +97,9 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contacto</h3>
             <address className="not-italic text-primary-foreground/80 space-y-2">
-              <p>{ contact.direccion }</p>
-              <p>{ contact.telefono }</p>
-              <p>{ contact.email }</p>
+              <p>{ contact.direccion}</p>
+              <p>{ contact.telefono}</p>
+              <p>{ contact.email}</p>
             </address>
           </div>
         </div>
@@ -113,4 +111,3 @@ export function Footer() {
     </footer>
   )
 }
-
