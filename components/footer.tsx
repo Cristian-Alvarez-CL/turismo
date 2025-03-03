@@ -50,7 +50,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
-              {["Inicio", "Destinos", "Servicios", "Galería", "Blog", "Contacto"].map((item) => (
+              {["Inicio", "Destinos", "Servicios", "Galería", "Contacto"].map((item) => (
                 <li key={item}>
                   <Link
                     href={
