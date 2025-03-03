@@ -5,7 +5,7 @@ import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
-import { useNotification } from "@/components/notification"
+import { NotificationProvider } from "@/components/notification"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -19,16 +19,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const { Notification, notificationProps } = useNotification()
-
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider defaultTheme="system" storageKey="turismo-mapumay-theme">
-          <Navbar />
-          {children}
-          <Footer />
-          {notificationProps && <Notification {...notificationProps} />}
+          <NotificationProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </NotificationProvider>
         </ThemeProvider>
       </body>
     </html>

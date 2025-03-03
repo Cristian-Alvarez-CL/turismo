@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState, useEffect } from "react"
+import { useState, useEffect, createContext, useContext } from "react"
 import { X } from "lucide-react"
 
 interface NotificationProps {
@@ -9,6 +9,14 @@ interface NotificationProps {
   type: "success" | "error"
   duration?: number
 }
+
+const NotificationContext = createContext<
+  | {
+      showNotification: (props: NotificationProps) => void
+      notificationProps: NotificationProps | null
+    }
+  | undefined
+>(undefined)
 
 export const Notification: React.FC<NotificationProps> = ({ message, type, duration = 3000 }) => {
   const [isVisible, setIsVisible] = useState(true)
@@ -39,12 +47,25 @@ export const Notification: React.FC<NotificationProps> = ({ message, type, durat
   )
 }
 
-export const useNotification = () => {
+export const NotificationProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [notificationProps, setNotificationProps] = useState<NotificationProps | null>(null)
 
   const showNotification = (props: NotificationProps) => {
     setNotificationProps(props)
   }
 
-  return { Notification, showNotification, notificationProps }
+  return (
+    <NotificationContext.Provider value={{ showNotification, notificationProps }}>
+      {children}
+      {notificationProps && <Notification {...notificationProps} />}
+    </NotificationContext.Provider>
+  )
+}
+
+export const useNotification = () => {
+  const context = useContext(NotificationContext)
+  if (context === undefined) {
+    throw new Error("useNotification must be used within a NotificationProvider")
+  }
+  return context
 }
