@@ -5,14 +5,13 @@ import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Toaster } from "@/components/ui/toaster"
+import { useNotification } from "@/components/notification"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Turismo Mapumay | Descubre la magia de nuestra tierra",
   description: "Agencia de turismo especializada en experiencias únicas en la naturaleza y cultura local.",
-  manifest: "/manifest.json",
 }
 
 export default function RootLayout({
@@ -20,6 +19,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const { Notification, notificationProps } = useNotification()
+
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
@@ -27,7 +28,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <Toaster />
+          {notificationProps && <Notification {...notificationProps} />}
         </ThemeProvider>
       </body>
     </html>

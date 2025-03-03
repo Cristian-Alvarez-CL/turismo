@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { useToast } from "@/components/ui/use-toast"
+import { useNotification } from "@/components/notification"
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -15,7 +15,7 @@ export function ContactForm() {
     subject: "",
     message: "",
   })
-  const { toast } = useToast()
+  const { showNotification } = useNotification()
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -28,9 +28,9 @@ export function ContactForm() {
     console.log("Form submitted:", formData)
     // Simulamos una respuesta exitosa
     await new Promise((resolve) => setTimeout(resolve, 1000))
-    toast.success({
-      title: "Mensaje enviado",
-      description: "Gracias por contactarnos. Te responderemos pronto.",
+    showNotification({
+      message: "Gracias por contactarnos. Te responderemos pronto.",
+      type: "success",
     })
     setFormData({ name: "", email: "", subject: "", message: "" })
   }
