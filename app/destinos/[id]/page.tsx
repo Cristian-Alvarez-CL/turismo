@@ -12,7 +12,7 @@ async function getTourData(id: string) {
       descripcion: "Un hermoso lago rodeado de montañas y bosques nativos.",
       descripcionLarga:
         "Explora las cristalinas aguas del Lago Todos Los Santos, también conocido como el 'Lago Esmeralda' por su impresionante color. Rodeado de majestuosos volcanes y exuberante vegetación, este tour te llevará a través de paisajes impresionantes y te permitirá disfrutar de la tranquilidad de la naturaleza chilena.",
-      imagen: "/images/destinatios/lago-todos-los-santos.png",
+      imagen: "/images/destinations/lago-todos-los-santos.png",
       precio: 45000,
       duracion: "1 día",
       ubicacion: "Parque Nacional Vicente Pérez Rosales",
