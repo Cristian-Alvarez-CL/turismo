@@ -22,7 +22,7 @@ export function HeroSection() {
           <Button asChild size="lg" variant="outline" className="bg-primary hover:bg-primary/90">
             <Link href="/destinos">Ver Destinos</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="bg-primary text-white hover:bg-primary/20">
+          <Button asChild size="lg" variant="outline" className="bg-primary text-white hover:bg-primary/90">
             <Link href="/contacto">Contáctanos</Link>
           </Button>
         </div>
