@@ -5,13 +5,13 @@ import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
+import { NotificationProvider } from "@/components/notification"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Turismo Mapumay | Descubre la magia de nuestra tierra",
   description: "Agencia de turismo especializada en experiencias únicas en la naturaleza y cultura local.",
-  manifest: "/manifest.json",
 }
 
 export default function RootLayout({
@@ -23,9 +23,11 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider defaultTheme="system" storageKey="turismo-mapumay-theme">
-          <Navbar />
-          {children}
-          <Footer />
+          <NotificationProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </NotificationProvider>
         </ThemeProvider>
       </body>
     </html>
