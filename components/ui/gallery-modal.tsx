@@ -19,15 +19,10 @@ export function GalleryModal({
   
   const [loadingStates, setLoadingStates] = useState<Record<number, boolean>>({})
   const [preloadedImages, setPreloadedImages] = useState<Set<number>>(new Set())
-  
-  if (!images || images.length === 0) return null
-  
-  const currentImage = images[selectedIndex]
-  if (!currentImage) return null
 
   // Precargar imágenes adyacentes
   useEffect(() => {
-    if (!isOpen) return
+    if (!isOpen || !images || images.length === 0) return
 
     const indicesToPreload = [
       selectedIndex - 1,
@@ -45,6 +40,11 @@ export function GalleryModal({
       }
     })
   }, [selectedIndex, isOpen, images, preloadedImages])
+
+  if (!images || images.length === 0) return null
+  
+  const currentImage = images[selectedIndex]
+  if (!currentImage) return null
 
   const handleImageLoad = (index: number) => {
     setLoadingStates(prev => ({ ...prev, [index]: false }))
