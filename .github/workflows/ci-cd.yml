@@ -1,36 +1,244 @@
-name: CI/CD
+name: CI/CD - Turismo Mapumay
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
+
+env:
+  NODE_VERSION: '18'
 
 jobs:
-  build-and-test:
+  # Job para validar dependencias en develop
+  validate-dependencies:
+    if: github.ref == 'refs/heads/develop' || github.base_ref == 'develop'
     runs-on: ubuntu-latest
-
+    name: 🔍 Validate Dependencies (Develop)
+    
     steps:
-    - uses: actions/checkout@v2
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
 
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18'
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
 
-    - name: Install dependencies
-      run: npm ci
+      - name: 📦 Install dependencies
+        run: npm i
 
-    - name: Run tests
-      run: npm test
+      - name: 🔒 Security audit
+        run: npm audit --force
+        continue-on-error: true
 
-    - name: Build
-      run: npm run build
+      - name: 📊 Check outdated packages
+        run: npm outdated || true
 
-    - name: Deploy to Vercel
-      if: success() && github.ref == 'refs/heads/main'
-      run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
-      env:
-        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      - name: ✅ Validate package-lock.json
+        run: npm ls
+
+      - name: 🔧 TypeScript check
+        run: npx tsc --noEmit
+
+      - name: 🎨 Lint check
+        run: npm run lint
+
+      - name: 🏗️ Build verification
+        run: npm run build
+
+  # Job completo para main (build, test, deploy)
+  build-test-deploy:
+    if: github.ref == 'refs/heads/main' || github.base_ref == 'main'
+    runs-on: ubuntu-latest
+    name: 🚀 Build, Test & Deploy (Main)
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm i
+
+      - name: 🔧 TypeScript check
+        run: npx tsc --noEmit
+
+      - name: 🎨 Run ESLint
+        run: npm run lint
+
+      - name: 🧪 Run tests
+        run: npm run test -- --coverage --watchAll=false
+        env:
+          CI: true
+
+      - name: 📊 Upload coverage reports
+        uses: codecov/codecov-action@v3
+        if: success()
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: false
+
+      - name: 🏗️ Build application
+        run: npm run build
+
+      - name: 🚀 Deploy to Vercel (Production)
+        if: success() && github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+
+  # Job para deploy de preview en develop
+  deploy-preview:
+    if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    name: 🔍 Deploy Preview (Develop)
+    needs: validate-dependencies
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm i
+
+      - name: 🏗️ Build for preview
+        run: npm run build
+
+      - name: 🔍 Deploy to Vercel (Preview)
+        run: npx vercel --token ${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+
+      - name: 💬 Comment deployment URL
+        uses: actions/github-script@v7
+        if: success()
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            try {
+              const deploymentUrl = execSync('npx vercel ls --token ${{ secrets.VERCEL_TOKEN }} | head -1').toString().trim();
+              github.rest.repos.createCommitComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha,
+                body: `🔍 **Preview Deployment Ready!**\n\n🌐 **URL**: ${deploymentUrl}\n\n✅ Branch: \`develop\``
+              });
+            } catch (error) {
+              console.log('Could not get deployment URL:', error.message);
+            }
+
+  # Job para Pull Requests
+  pr-validation:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    name: ✅ PR Validation
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm i
+
+      - name: 🔧 TypeScript check
+        run: npx tsc --noEmit
+
+      - name: 🎨 Run ESLint
+        run: npm run lint
+
+      - name: 🧪 Run tests
+        run: npm run test -- --coverage --watchAll=false
+        env:
+          CI: true
+
+      - name: 🏗️ Build check
+        run: npm run build
+
+      - name: 📝 Comment PR results
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const { context } = require('@actions/github');
+            const success = '${{ job.status }}' === 'success';
+            const emoji = success ? '✅' : '❌';
+            const status = success ? 'All checks passed!' : 'Some checks failed!';
+            
+            const body = `${emoji} **PR Validation Results**
+            
+            **Status**: ${status}
+            **Branch**: \`${{ github.head_ref }}\`
+            **Target**: \`${{ github.base_ref }}\`
+            
+            ${success ? '🚀 Ready for review and merge!' : '🔧 Please fix the issues before merging.'}
+            
+            **Checks performed**:
+            - TypeScript compilation
+            - ESLint validation  
+            - Jest tests with coverage
+            - Next.js build verification
+            `;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+
+  # Job para análisis de calidad de código
+  code-quality:
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    name: 📊 Code Quality Analysis
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm i
+
+      - name: 🔍 SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        if: env.SONAR_TOKEN != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: 📈 Bundle analyzer
+        run: |
+          npm run build
+          npx @next/bundle-analyzer
+        continue-on-error: true
