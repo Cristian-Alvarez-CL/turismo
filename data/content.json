@@ -1,0 +1,164 @@
+{
+  "site": {
+    "name": "Turismo Mapumay",
+    "tagline": "Bienvenidos a Turismo Mapumay",
+    "description": "Servicios de transporte, Giras de estudio, tour y experiencias a tu medida en Pucón.",
+    "subtitle": "Somos una empresa familiar que combina experiencia, cercanía y pasión por el turismo. Diseñamos cada viaje con dedicación, para que vivas aventuras inolvidables en uno de los destinos más hermosos del sur de Chile.",
+    "features": [
+      "Seguridad, calidad y atención personalizada garantizadas.",
+      "¿Listo para tu próxima experiencia? ¡Contáctanos y arma tu viaje ideal!"
+    ],
+    "logo": "/images/mapumay/pajaro-mapumay.png"
+  },
+  "contact": {
+    "address": "General Urrutia 436, Pucón, Chile",
+    "phone": "+56 9 8945 68 16",
+    "email": "info@turismomapumay.cl",
+    "whatsapp": "56989456816",
+    "schedule": {
+      "weekdays": "Lunes a Viernes: 9:00 - 17:00",
+      "saturday": "Sábados: 10:00 - 14:00"
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/turismo_mapumay/",
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "banking": {
+      "bank": "",
+      "name": "",
+      "rut": "",
+      "accountType": "",
+      "accountNumber": "",
+      "email": "abonos@tmapumay.cl"
+    }
+  },
+  "navigation": {
+    "main": [
+      { "href": "/", "label": "Inicio" },
+      { "href": "/destinos", "label": "Tours" },
+      { "href": "/servicios", "label": "Servicios" },
+      { "href": "/galeria", "label": "Galería" },
+      { "href": "/contacto", "label": "Contacto" }
+    ]
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Bienvenidos a Turismo Mapumay",
+        "subtitle": "Servicios de transporte, Giras de estudio, tour y experiencias a tu medida en Pucón.",
+        "description": "Somos una empresa familiar que combina experiencia, cercanía y pasión por el turismo. Diseñamos cada viaje con dedicación, para que vivas aventuras inolvidables en uno de los destinos más hermosos del sur de Chile.",
+        "image": "/images/mapumay/ocaso-sin-agua.png",
+        "buttons": {
+          "primary": { "text": "Ver Tours", "href": "/destinos" },
+          "secondary": { "text": "Contáctanos", "href": "/contacto" }
+        }
+      },
+      "featuredDestinations": {
+        "title": "Nuestros Tours Destacados",
+        "viewAllText": "Ver Todos los Tours"
+      },
+      "aboutUs": {
+        "title": "Sobre Nosotros",
+        "image": "/images/mapumay/ocaso-mapuche.png",
+        "paragraphs": [
+          "Somos una empresa familiar ubicada en el corazón de Pucón, dedicada a ofrecer experiencias turísticas y personalizadas. Nuestra pasión es conectar a las personas con la belleza natural y cultural de la región y alrededores, brindando un servicio cercano, responsable y de calidad.",
+          "Como familia, colocamos todo nuestro compromiso y cariño en cada detalle, asegurando la seguridad, comodidad y satisfacción de todos nuestros visitantes."
+        ]
+      },
+      "services": {
+        "title": "¡Nuestros servicios!",
+        "items": [
+          "Actividades y Tour en zona lacustre y alrededor",
+          "Transporte",
+          "Giras de Estudio",
+          "Viajes Tercera Edad Sernatur (VTE)"
+        ]
+      },
+      "testimonials": {
+        "title": "Lo Que Dicen Nuestros Clientes"
+      }
+    },
+    "destinos": {
+      "title": "Nuestros Tours",
+      "subtitle": "Vive experiencias inolvidables en los destinos más hermosos del sur de Chile"
+    },
+    "servicios": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Servicios de transporte, Giras de estudio, tour y experiencias a tu medida en Pucón."
+    },
+    "galeria": {
+      "title": "Galería de Imágenes",
+      "subtitle": "Explora la belleza de nuestros destinos a través de esta colección de imágenes cautivadoras."
+    },
+    "contacto": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte a planificar tu próxima aventura. No dudes en contactarnos para cualquier consulta o reserva.",
+      "form": {
+        "title": "Envíanos un Mensaje",
+        "fields": {
+          "name": { "placeholder": "Nombre completo", "required": true },
+          "email": { "placeholder": "Correo electrónico", "required": true },
+          "phone": { "placeholder": "Teléfono", "required": false },
+          "subject": { "placeholder": "Asunto", "required": true },
+          "message": { "placeholder": "¿En qué podemos ayudarte?", "required": true }
+        },
+        "submitText": "Enviar Mensaje",
+        "successMessage": "Gracias por contactarnos. Nos comunicaremos contigo pronto.",
+        "errorMessage": "Hubo un error al enviar el mensaje. Inténtalo nuevamente."
+      },
+      "info": {
+        "title": "Información de Contacto",
+        "schedule": {
+          "title": "Horario de Atención"
+        }
+      }
+    }
+  },
+  "reservations": {
+    "policy": {
+      "title": "Para las reservas",
+      "deposit": "Se solicita el 50% del monto total para generar la reserva y el otro 50% se cancela al inicio de la actividad.(sin abono no hay reserva).",
+      "cancellation": "En caso de cancelación, inferior a 48 horas no se realiza devolución de abonos.",
+      "weather": "Actividades sujetas a condiciones climáticas vientos, corte de luz, emergencias, catástrofes, entre otras, en caso de cancelación por parte de turismo mapumay se reprograma.",
+      "rain": "Recordar que en el sur llueve por lo que no se suspende actividades por lluvia, a no ser que sea un ascenso, en esos caso se evalúa."
+    }
+  },
+  "buttons": {
+    "viewDetails": "Ver Detalles",
+    "bookNow": "Reservar Ahora",
+    "viewMore": "Ver Más",
+    "sendMessage": "Enviar Mensaje",
+    "close": "Cerrar",
+    "requestQuote": "Solicita Cotización",
+    "viewPrograms": "Ver Programas"
+  },
+  "labels": {
+    "price": "Valor",
+    "duration": "Duración",
+    "location": "Ubicación",
+    "participants": "Participantes",
+    "availableDates": "Fechas Disponibles",
+    "includes": "Que incluye",
+    "notIncludes": "No incluye",
+    "recommendations": "Recomendaciones",
+    "notAllowed": "No permitido",
+    "importantInfo": "Información importante",
+    "features": "Características",
+    "itinerary": "Itinerario",
+    "departure": "Salida",
+    "adult": "adulto",
+    "child": "Niño entre 4 y 12 años",
+    "minimumAge": "edad mínima",
+    "years": "años"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, estoy interesado en conocer más sobre sus servicios turísticos."
+  },
+  "footer": {
+    "description": "Descubre la magia de nuestra tierra con experiencias turísticas únicas y memorables.",
+    "quickLinks": "Enlaces Rápidos",
+    "popularDestinations": "Tours Populares",
+    "copyright": "Todos los derechos reservados."
+  }
+}

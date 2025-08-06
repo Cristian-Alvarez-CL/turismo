@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "María González",
+    "text": "Nuestra experiencia con Turismo Mapumay fue increíble. Como empresa familiar, se nota el cariño y dedicación que ponen en cada detalle. El tour a Huilo Huilo superó todas nuestras expectativas.",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Rodríguez",
+    "text": "Excelente servicio de transporte. Puntuales, seguros y muy profesionales. Los recomiendo totalmente para cualquier traslado en Pucón y alrededores.",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  },
+  {
+    "id": 3,
+    "name": "Ana Martínez",
+    "text": "La gira de estudios de nuestro curso fue perfecta. La organización fue impecable y las actividades estaban muy bien pensadas para los estudiantes. ¡Una experiencia inolvidable!",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  },
+  {
+    "id": 4,
+    "name": "Roberto Silva",
+    "text": "Como adulto mayor, me sentí muy seguro y cómodo durante todo el viaje VTE. El trato personalizado y la atención a nuestras necesidades fue excepcional.",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  },
+  {
+    "id": 5,
+    "name": "Francisca López",
+    "text": "Las Termas Geométricas fueron un sueño hecho realidad. La tranquilidad del lugar y el servicio de Turismo Mapumay hicieron que fuera el día perfecto de relajación.",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  },
+  {
+    "id": 6,
+    "name": "Familia Mendoza",
+    "text": "El ascenso al Volcán Villarrica fue la aventura de nuestras vidas. Los guías fueron excelentes y nos hicieron sentir seguros en todo momento. ¡Gracias Turismo Mapumay!",
+    "rating": 5,
+    "image": "/images/testimonials/photo1.png"
+  }
+]
