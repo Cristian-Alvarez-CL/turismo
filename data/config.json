@@ -1,0 +1,56 @@
+{
+  "company": {
+    "name": "Turismo Mapumay",
+    "rut": "77.439.621-7",
+    "type": "Empresa Familiar",
+    "location": "Pucón, Chile",
+    "established": "Más de 10 años de experiencia"
+  },
+  "theme": {
+    "primaryColor": "#10b981",
+    "secondaryColor": "#065f46",
+    "accentColor": "#34d399"
+  },
+  "features": {
+    "emailNotifications": true,
+    "whatsappIntegration": true,
+    "reservationSystem": false,
+    "paymentGateway": false,
+    "multiLanguage": false
+  },
+  "policies": {
+    "cancellation": {
+      "hours": 48,
+      "refund": false
+    },
+    "deposit": {
+      "percentage": 50,
+      "required": true
+    },
+    "weather": {
+      "rainCancellation": false,
+      "extremeWeatherCancellation": true
+    }
+  },
+  "analytics": {
+    "googleAnalytics": "",
+    "facebookPixel": "",
+    "hotjar": ""
+  },
+  "seo": {
+    "keywords": [
+      "turismo",
+      "pucón",
+      "chile",
+      "tours",
+      "aventura",
+      "naturaleza",
+      "volcán villarrica",
+      "termas",
+      "huilo huilo",
+      "valdivia",
+      "empresa familiar"
+    ],
+    "description": "Turismo Mapumay - Empresa familiar especializada en tours, transporte y giras de estudio en Pucón, Chile. Experiencias únicas en la naturaleza del sur de Chile."
+  }
+}

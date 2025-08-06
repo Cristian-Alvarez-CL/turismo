@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tours y Actividades",
+    "descripcion": "Actividades y Tour en zona lacustre y alrededor con experiencias únicas en la naturaleza.",
+    "icono": "Map",
+    "caracteristicas": [
+      "Tours guiados especializados",
+      "Experiencias en zona lacustre",
+      "Actividades de aventura",
+      "Rutas personalizadas según intereses"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Transporte",
+    "descripcion": "¿Necesitas moverte o conocer lugares con comodidad y seguridad? Viaja con nosotros!",
+    "icono": "Bus",
+    "caracteristicas": [
+      "Transporte ejecutivo",
+      "Traslados al aeropuerto",
+      "Turismo",
+      "Viajes dentro y fuera de la ciudad",
+      "Servicios corporativos y personales",
+      "Disponibilidad 24/7",
+      "Conductores profesionales",
+      "Vehículos cómodos y climatizados",
+      "Seguro de Asiento"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Giras de Estudio",
+    "descripcion": "¡Haz que tu gira de estudios sea inolvidable! Descubre Pucón, el destino perfecto para que estudiantes vivan experiencias únicas.",
+    "icono": "Landmark",
+    "caracteristicas": [
+      "Transporte privado para las actividades",
+      "Alojamiento en hostales o cabañas equipadas y seguras",
+      "Pensión completa (desayuno, almuerzo y cena)",
+      "Coordinación 24/7 con monitores y guías certificados",
+      "Seguro de accidente en cada actividad",
+      "Actividades recreativas, deportivas y culturales",
+      "Programas personalizados según nivel educativo",
+      "Descuentos especiales",
+      "Facturación para establecimientos educacionales"
+    ],
+    "actividades": [
+      "Rafting",
+      "Paintball",
+      "Canopy",
+      "Caburgua",
+      "Base del Volcán",
+      "Lican Ray",
+      "Villarrica",
+      "Salto Mili Mili",
+      "Juegos Inflables en el lago",
+      "Discoteque",
+      "Y mucho más!"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Viajes Tercera Edad Sernatur (VTE)",
+    "descripcion": "Vive el Programa VTE de SERNATUR con nosotros. Somos parte del programa Vacaciones Tercera Edad de SERNATUR.",
+    "icono": "Hotel",
+    "caracteristicas": [
+      "Experiencias únicas, seguras y accesibles para adultos mayores",
+      "Servicio cercano y de calidad",
+      "Itinerarios diseñados para el descanso, la recreación y la cultura",
+      "Alojamiento cómodo en Hoteles, Hostales o cabañas compartidas",
+      "Pensión completa",
+      "Transporte incluido",
+      "Actividades guiadas",
+      "Enfoque en bienestar y seguridad"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Experiencias Especiales",
+    "descripcion": "Consulta por experiencias especiales y tours diseñados a tu medida! Adaptamos cada aventura según tus intereses.",
+    "icono": "Mountain",
+    "caracteristicas": [
+      "Tours personalizados",
+      "Experiencias a medida",
+      "Adaptación según intereses y necesidades",
+      "Momentos únicos garantizados",
+      "Flexibilidad en itinerarios",
+      "Atención personalizada"
+    ]
+  }
+]

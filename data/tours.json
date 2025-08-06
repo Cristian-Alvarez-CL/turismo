@@ -1,0 +1,1244 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "nombre": "Tour Huilo Huilo",
+      "descripcion": "Vive una experiencia inolvidable recorriendo los principales atractivos de la Reserva Biológica Huilo Huilo donde la magia de la naturaleza cobra vida.",
+      "descripcionLarga": "Vive una experiencia inolvidable recorriendo los principales atractivos de la Reserva Biológica Huilo Huilo donde la magia de la naturaleza cobra vida. Disfruta de increíbles miradores, imponentes saltos de agua, y mágicos senderos inmersos en el bosque. Conoce de cerca a los ciervos y jabalíes en el criadero local. Saborea un delicioso almuerzo típico y visita el encantador sector de Puerto Fuy a orillas del lago Pirihueico. Una jornada perfecta para reconectar con la naturaleza.",
+      "imagen": "/images/tours/tour_huilo_huilo/hero-huilo-huilo.jpg",
+      "precio": 45000,
+      "precioNino": 40000,
+      "duracion": "1 día",
+      "salida": "08:00 am desde Pucón",
+      "regreso": "20:00 aprox (según tráfico en ruta)",
+      "ubicacion": "Reserva Biológica Huilo Huilo",
+      "participantesMinimos": 6,
+      "edadMinima": null,
+      "featured": true,
+      "itinerario": [
+        "Mirador Ancapulli (lago calafquen y mirador de volcanes)",
+        "Licanray Muelle Flotante (lago calafquen)",
+        "Mirador Rucatrehua",
+        "Mirador Toledo",
+        "Portal Huilo (Salto Huilo- Huilo)",
+        "Almuerzo (incluido en Neltume)",
+        "Portal Leona",
+        "Montaña Mágica",
+        "Museo rakinmapu",
+        "Portal de Ciervos, Jabalíes y Museo",
+        "Puerto Fuy (lago peihueico)",
+        "Muelle de los enamorados"
+      ],
+      "incluye": [
+        "Transporte",
+        "Tickets a portales",
+        "Almuerzo"
+      ],
+      "noIncluye": [
+        "Snacks",
+        "Navegaciones",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Se les recomienda ropa y zapatilla cómodas para caminar en los senderos",
+        "Muda de ropa completa",
+        "Capa de agua o impermeable",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol",
+        "Traje de baño (si desean bañarse en lago perihueico en tiempo disponible)",
+        "Se recomienda llevar efectivo para compras en Neltume y Puerto Fuy"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 6 participantes para que la actividad se realice. Si no se alcanza ese número, se reprograma para otra fecha o se efectuará un reembolso del dinero.",
+        "Actividad no recomendada para personas con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "huilo-01",
+          "title": "Montaña Mágica",
+          "description": "Vista de la icónica Montaña Mágica en Huilo Huilo",
+          "src": "/images/tours/tour_huilo_huilo/gallery/01.jpg",
+          "tags": ["naturaleza", "arquitectura", "bosque"]
+        },
+        {
+          "id": "huilo-02", 
+          "title": "Salto Huilo Huilo",
+          "description": "Impresionante cascada en la reserva",
+          "src": "/images/tours/tour_huilo_huilo/gallery/02.jpg",
+          "tags": ["cascada", "naturaleza", "agua"]
+        },
+        {
+          "id": "huilo-03",
+          "title": "Senderos del Bosque",
+          "description": "Caminata por senderos naturales",
+          "src": "/images/tours/tour_huilo_huilo/gallery/03.jpg",
+          "tags": ["trekking", "bosque", "senderos"]
+        },
+        {
+          "id": "huilo-04",
+          "title": "Puerto Fuy",
+          "description": "Hermoso lago Pirihueico en Puerto Fuy",
+          "src": "/images/tours/tour_huilo_huilo/gallery/04.jpg",
+          "tags": ["lago", "puerto", "paisaje"]
+        },
+        {
+          "id": "huilo-05",
+          "title": "Mirador Ancapulli",
+          "description": "Vista panorámica desde el mirador",
+          "src": "/images/tours/tour_huilo_huilo/gallery/05.jpg",
+          "tags": ["mirador", "panorámica", "volcanes"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Tour Saltos",
+      "descripcion": "Descubre la belleza natural de los saltos más impresionantes de la región en una aventura de un día.",
+      "imagen": "/images/tours/tour_saltos/hero-tour-saltos.jpg",
+      "precio": 35000,
+      "precioNino": 30000,
+      "duracion": "Medio día",
+      "salida": "9:00 am desde Pucón",
+      "ubicacion": "Zona de Saltos",
+      "participantesMinimos": 3,
+      "edadMinima": null,
+      "featured": true,
+      "itinerario": [
+        "Salto la china",
+        "Salto los mellizos",
+        "Salto el león"
+      ],
+      "incluye": [
+        "Transporte",
+        "Tickets a portales"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Se les recomienda ropa y zapatilla cómodas para caminar en los senderos",
+        "Capa de agua o impermeable",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 3 participantes para que la actividad se realice. Si no se alcanza ese número, se reprograma para otra fecha o se efectuará un reembolso del dinero.",
+        "Consulta en caso de movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "saltos-01",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/01.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },
+        {
+          "id": "saltos-02",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/02.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },{
+          "id": "saltos-03",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/03.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },{
+          "id": "saltos-04",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/04.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },{
+          "id": "saltos-05",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/05.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },{
+          "id": "saltos-06",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/06.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        },{
+          "id": "saltos-07",
+          "title": "Salto La China",
+          "description": "Impresionante cascada en medio del bosque",
+          "src": "/images/tours/tour_saltos/gallery/07.jpg",
+          "tags": ["cascada", "naturaleza", "bosque"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Ascenso Cráter Volcán Villarrica",
+      "descripcion": "¡Vive la emoción de subir un volcán activo!",
+      "descripcionLarga": "¡Vive la emoción de subir un volcán activo! Súmate al ascenso guiado al Volcán Villarrica, uno de los imperdibles de Chile. Camina sobre nieve, disfruta vistas panorámicas de lagos y volcanes y acércate al cráter humeante en una aventura única.",
+      "imagen": "/images/tours/ascenso_volcan_villarica/hero-volcan-villarrica.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Volcán Villarrica (Rukapillan)",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": true,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket parque nacional Villarrica",
+        "Equipamiento técnico completo (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "volcan-01",
+          "title": "Cráter Volcán Villarrica",
+          "description": "Vista del cráter activo con lava incandescente",
+          "src": "/images/tours/ascenso_volcan_villarica/gallery/01.webp",
+          "tags": ["volcán", "cráter", "aventura"]
+        },
+        {
+          "id": "volcan-02",
+          "title": "Ascenso en la Nieve",
+          "description": "Escalada sobre nieve y hielo",
+          "src": "/images/tours/ascenso_volcan_villarica/gallery/02.jpg",
+          "tags": ["nieve", "escalada", "montañismo"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Canyoning",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/canyoning/hero-canyoning.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": true,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "canyoning-01",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "canyoning-02",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-03",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-04",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-05",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-06",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-07",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-08",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/08.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-09",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/09.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-10",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-11",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/11.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-12",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/12.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-13",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/13.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },{
+          "id": "canyoning-14",
+          "title": "Canyoning",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/canyoning/gallery/14.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Hydrospeed",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/hydrospeed/hero-hydrospeed.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": true,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "hydrospeed-01",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-02",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-03",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-04",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-05",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-06",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-07",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-08",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/08.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-09",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/09.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-10",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-10",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "hydrospeed-10",
+          "title": "Hydrospeed",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/hydrospeed/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Giras de Estudios",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/giras_de_estudio/hero-gira-estudio.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": true,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "giras-estudio-01",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "giras-estudio-02",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "giras-estudio-03",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "giras-estudio-04",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "giras-estudio-05",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "giras-estudio-06",
+          "title": "Giras de Estudios",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/giras_de_estudio/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Termas Teometricas",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/termas_teometricas/hero-termas_teometricas.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": false,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "termas_teometricas-01",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-02",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-03",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-04",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-05",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-06",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-07",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-08",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/08.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-09",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/09.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-10",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-11",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/11.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-12",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/12.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-13",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/13.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-14",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/14.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-15",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/15.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-16",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/16.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-17",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/17.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-18",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/18.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-19",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/19.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-20",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/20.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-21",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/21.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-22",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/22.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "termas_teometricas-23",
+          "title": "Termas Teometricas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/termas_teometricas/gallery/23.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Tour Saltos",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/tour_saltos/hero-tour-saltos.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": false,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "tour_saltos-01",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-02",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-03",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-04",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-05",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-06",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_saltos-07",
+          "title": "Tour Saltos",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_saltos/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Tour Zona + Termas",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/tour_zona_termas/hero-tour_zona_termas.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": false,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "tour_zona_termas-01",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-02",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-03",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-04",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-05",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-06",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-07",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-08",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/08.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-09",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/09.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-10",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/10.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-11",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/11.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-12",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/12.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-13",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/13.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-14",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/14.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-15",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/15.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-16",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/16.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-17",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/17.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-18",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/18.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-19",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/19.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-20",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/20.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-21",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/21.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-22",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/22.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-23",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/23.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-24",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/24.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "tour_zona_termas-25",
+          "title": "Tour Zona mas Termas",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/tour_zona_termas/gallery/25.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Transporte Privado",
+      "descripcion": "¡Vive la emoción XXXXXXXXX!",
+      "descripcionLarga": "¡Vive la emoción de XXXXXXXXXXXX, uno de los imperdibles de Chile. XXXXXXXXXXXXXXX y acércate al XXXXX en una aventura única.",
+      "imagen": "/images/tours/transporte_privado/hero-transporte_privado.jpg",
+      "precio": 130000,
+      "precioNino": null,
+      "duracion": "1 día",
+      "salida": "06:00 am aprox",
+      "ubicacion": "Ubicacion XXXXXXXXXX",
+      "participantesMinimos": 1,
+      "edadMinima": 14,
+      "featured": false,
+      "incluye": [
+        "Transporte compartido ida/vuelta",
+        "Seguro de accidentes",
+        "Guía certificado e instructor bilingüe",
+        "Ticket XXXXXXXXXXXXX",
+        "Equipamiento XXXXXXXXXXXXX (solo llevar ropa personal)"
+      ],
+      "noIncluye": [
+        "Snacks o almuerzo",
+        "Compras de los pasajeros",
+        "Todo lo no mencionado"
+      ],
+      "recomendaciones": [
+        "Buen descanso la noche anterior",
+        "Snack",
+        "Bloqueador solar",
+        "Botella de agua para Hidratación",
+        "Gafas de Sol"
+      ],
+      "noPermitido": [
+        "Llevar mascotas",
+        "Alimentar a la fauna",
+        "Salirse del sendero y no seguir al grupo",
+        "Menores de edad sin un adulto a cargo",
+        "Dejar rastro (deja basura)"
+      ],
+      "infoImportante": [
+        "Se necesita un número mínimo de 1 participante para que la actividad se realice. En caso de mal clima este se reprograma.",
+        "Actividad no recomendada para personas con problemas cardiacos, respiratorios o con movilidad reducida."
+      ],
+      "galeria": [
+        {
+          "id": "transporte_privado-01",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/01.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-02",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/02.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-03",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/03.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-04",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/04.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-05",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/05.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-06",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/06.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        },
+        {
+          "id": "transporte_privado-07",
+          "title": "Transporte Privado",
+          "description": "Descripcion XXXXXXXXXXXXX",
+          "src": "/images/tours/transporte_privado/gallery/07.jpg",
+          "tags": ["XXXXXXX", "XXXXXXX", "XXXXXXX"]
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "naturaleza": "Naturaleza",
+    "aventura": "Aventura", 
+    "cascada": "Cascadas",
+    "volcán": "Volcanes",
+    "lago": "Lagos",
+    "bosque": "Bosques",
+    "mirador": "Miradores",
+    "trekking": "Trekking",
+    "panorámica": "Vistas Panorámicas"
+  }
+}
